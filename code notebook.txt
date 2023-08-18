@@ -1,0 +1,10 @@
+1. 添加conda虚拟环境到jupyter notebook
+在环境中安装
+conda install jupyter ipykernel
+在powershell中打开环境：
+python -m ipykernel install --user --name=环境名字 --display-name="notebook中的名字"
+
+2. 创建虚拟环境：
+conda create -n  名字
+查看列表
+conda env list
